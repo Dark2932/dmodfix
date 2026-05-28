@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.dark2932.fabric.ExampleModFabric"
+      "com.dark2932.dmodfix.dmodfix.dmodfixFabric"
     ],
     "client": [
-      "com.dark2932.fabric.client.ExampleModFabricClient"
+      "com.dark2932.dmodfix.dmodfix.client.dmodfixFabricClient"
     ]
   },
   "mixins": [

@@ -1,10 +1,9 @@
-package com.dark2932.fabric;
+package com.dark2932.dmodfix.dmodfix;
 
+import com.dark2932.dmodfix.dmodfix;
 import net.fabricmc.api.ModInitializer;
 
-import com.dark2932.ExampleMod;
-
-public final class ExampleModFabric implements ModInitializer {
+public final class dmodfixFabric implements ModInitializer {
     @Override
     public void onInitialize() {
         // This code runs as soon as Minecraft is in a mod-load-ready state.
@@ -12,6 +11,6 @@ public final class ExampleModFabric implements ModInitializer {
         // Proceed with mild caution.
 
         // Run our common setup.
-        ExampleMod.init();
+        dmodfix.init();
     }
 }
