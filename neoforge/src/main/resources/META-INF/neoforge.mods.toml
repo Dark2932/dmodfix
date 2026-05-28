@@ -1,17 +1,17 @@
 modLoader = "javafml"
 loaderVersion = "[4,)"
-#issueTrackerURL = ""
-license = "Insert License Here"
+issueTrackerURL = "https://github.com/Dark2932/dmodfix/issues"
+license = "MIT"
 
 [[mods]]
 modId = "dmodfix"
 version = "${version}"
-displayName = "Dark's Mod Fix"
-authors = "Me!"
+displayName = "dmodfix"
+authors = "Dark2932"
 description = '''
-This is an example description! Tell everyone what your mod is about!
+Fix some minor bugs.
 '''
-#logoFile = ""
+logoFile = ""
 
 [[dependencies.dmodfix]]
 modId = "neoforge"

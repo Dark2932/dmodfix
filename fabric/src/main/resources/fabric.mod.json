@@ -2,16 +2,16 @@
   "schemaVersion": 1,
   "id": "dmodfix",
   "version": "${version}",
-  "name": "DModFix",
-  "description": "Fix some minor bugs",
+  "name": "dmodfix",
+  "description": "Fix some minor bugs.",
   "authors": [
     "Dark2932"
   ],
   "contact": {
-    "homepage": "https://fabricmc.net/",
-    "sources": "https://github.com/FabricMC/fabric-example-mod"
+    "homepage": "https://github.com/Dark2932/dmodfix",
+    "sources": "https://github.com/Dark2932/dmodfix"
   },
-  "license": "CC0-1.0",
+  "license": "MIT",
   "icon": "assets/dmodfix/icon.png",
   "environment": "*",
   "entrypoints": {
