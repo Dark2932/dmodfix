@@ -4,8 +4,10 @@
   "compatibilityLevel": "JAVA_21",
   "minVersion": "0.8",
   "client": [
+    "verdant.MixinClientDynamicResourcesHandler"
   ],
   "mixins": [
+    "treechop.MixinFellTreeResult"
   ],
   "injectors": {
     "defaultRequire": 1

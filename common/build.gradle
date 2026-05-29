@@ -2,7 +2,18 @@ architectury {
     common rootProject.enabled_platforms.split(',')
 }
 
+repositories {
+    maven {
+        url "https://api.modrinth.com/maven"
+        content { includeGroup "maven.modrinth" }
+    }
+}
+
 dependencies {
     modImplementation "net.fabricmc:fabric-loader:$rootProject.fabric_loader_version"
     modImplementation "dev.architectury:architectury:$rootProject.architectury_api_version"
+
+    modCompileOnly "maven.modrinth:moonlight:Vcs2WJ3K"
+    modCompileOnly "maven.modrinth:treechop:YK5sxWxT"
+    modCompileOnly "maven.modrinth:verdant-mod:6VA26Bbj"
 }
