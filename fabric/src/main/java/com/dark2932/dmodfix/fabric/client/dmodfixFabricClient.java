@@ -1,4 +1,4 @@
-package com.dark2932.dmodfix.dmodfix.client;
+package com.dark2932.dmodfix.fabric.client;
 
 import net.fabricmc.api.ClientModInitializer;
 

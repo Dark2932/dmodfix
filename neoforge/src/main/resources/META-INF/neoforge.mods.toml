@@ -6,7 +6,7 @@ license = "MIT"
 [[mods]]
 modId = "dmodfix"
 version = "${version}"
-displayName = "dmodfix"
+displayName = "Dark2932's Mod Fix"
 authors = "Dark2932"
 description = '''
 Fix some minor bugs.

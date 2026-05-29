@@ -2,7 +2,7 @@
   "schemaVersion": 1,
   "id": "dmodfix",
   "version": "${version}",
-  "name": "dmodfix",
+  "name": "Dark2932's Mod Fix",
   "description": "Fix some minor bugs.",
   "authors": [
     "Dark2932"
@@ -16,10 +16,10 @@
   "environment": "*",
   "entrypoints": {
     "main": [
-      "com.dark2932.dmodfix.dmodfix.dmodfixFabric"
+      "com.dark2932.dmodfix.fabric.dmodfixFabric"
     ],
     "client": [
-      "com.dark2932.dmodfix.dmodfix.client.dmodfixFabricClient"
+      "com.dark2932.dmodfix.fabric.client.dmodfixFabricClient"
     ]
   },
   "mixins": [

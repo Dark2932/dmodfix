@@ -1,4 +1,4 @@
-package com.dark2932.dmodfix.dmodfix;
+package com.dark2932.dmodfix.neoforge;
 
 import com.dark2932.dmodfix.dmodfix;
 import net.neoforged.fml.common.Mod;
