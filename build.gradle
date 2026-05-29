@@ -27,6 +27,10 @@ subprojects {
         maven { url = 'https://maven.parchmentmc.org' }
     }
 
+    loom {
+        silentMojangMappingsLicense()
+    }
+
     dependencies {
         minecraft "net.minecraft:minecraft:$rootProject.minecraft_version"
         mappings loom.layered() {
